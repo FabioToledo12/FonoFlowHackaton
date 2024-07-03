@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DevFono",
-    "slug": "DevFono",
+    "name": "FonoFlow",
+    "slug": "FonoFlow",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FF7C45"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +18,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fabio.toledo.FonoFlow"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "046ccd1f-5ec2-4169-966b-6981b53ee84f"
+      }
     }
   }
 }
